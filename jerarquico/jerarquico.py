@@ -10,6 +10,7 @@ from cleaning import load_clean_dataset, load_normalized_dataset
 # Función para aplicar clustering aglomerativo y mostrar resultados
 def clustering_aglomerativo(n_grupos):
     print("=" * 60)
+    print(f"DRY BEAN CLUSTERING")
     print(f"🔷 Clustering Jerárquico Aglomerativo - {n_grupos} grupos")
     print("=" * 60)
 
